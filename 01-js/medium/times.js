@@ -67,3 +67,24 @@ There is no automated test for this one, this is more for you to understand time
 // }
 
 // console.log("result -> " + calTime2(1000));
+
+
+
+// The best solution
+// function calculateTime(n) {
+//     let sum = 0;
+
+//     for (let i = 1; i <= n; i++) {
+//         sum += i;
+//     }
+
+//     return sum;
+// }
+
+// const beforeDate = new Date();
+// const beforeTimeInMs = beforeDate.getTime();
+// calculateTime(1000000);
+// const afterDate = new Date();
+// const afterTimeInMs = afterDate.getTime();
+
+// console.log(afterTimeInMs - beforeTimeInMs);
